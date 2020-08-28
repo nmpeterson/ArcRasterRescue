@@ -1,5 +1,6 @@
 #include <zlib.h>
 #include <type_traits>
+#include <array>
 #include <cstring>
 #include <sstream>
 #include <string>

@@ -170,6 +170,8 @@ class RasterData : public BaseTable {
   GDALDataType myGDALType() const {
     if(typeid(T)==typeid(uint8_t))
       return GDT_Byte;
+    else if(typeid(T)==typeid(int8_t))
+      return GDT_Byte;
     else if(typeid(T)==typeid(uint16_t))
       return GDT_UInt16;
     else if(typeid(T)==typeid(int16_t))
