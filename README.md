@@ -1,5 +1,5 @@
-ArcRasterRescue
-===============
+ArcRasterRescue - compiled on macOS
+===================================
 
 **Seeking someone knowledgeable in the ways of crafting GDAL drivers to help with that part of the effort.**
 
